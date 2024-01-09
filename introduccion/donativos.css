@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Permanent Marker', cursive;
+    background-image: url('back.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    height: 100vh; /* Ajustar la altura al 100% de la ventana */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner {
+    width: 100%;
+    height: 80px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.logo img {
+    max-height: 60px;
+    margin-right: 10px;
+}
+
+.menu, .donativos {
+    display: flex;
+    align-items: center;
+}
+
+.menu a, .donativos a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.donativos {
+    margin-left: auto;
+}
+
+.contenido-donativos {
+    margin-top: 50px; /* Ajusta según sea necesario */
+}
+
+h1 {
+    font-size: 96px; /* Tamaño aún más grande del texto */
+    color: #ff4500; /* Color naranja intenso, puedes cambiarlo según tus preferencias */
+    text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.8); /* Sombra más pronunciada para resaltar el texto */
+    background-color: #ffd700; /* Fondo amarillo, puedes cambiarlo según tus preferencias */
+    padding: 30px; /* Añadir más espacio alrededor del texto */
+    border-radius: 20px; /* Esquinas redondeadas */
+    display: inline-block; /* Para que el fondo se ajuste al contenido del texto */
+    box-shadow: 0 0 60px rgba(0, 128, 0, 1); /* Box-shadow llamativo */
+}
